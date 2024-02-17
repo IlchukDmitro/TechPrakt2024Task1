@@ -2,79 +2,54 @@ body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
     color: #333;
-    background-color: #f3f3f3;
+    background-color: #e8e8e8; /* Змінено колір фону */
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #35424a;
+    background-color: #2a2a2a; /* Змінено колір фону */
     color: #ffffff;
-    padding: 20px 0;
+    padding: 30px 0; /* Збільшено відступ */
     text-align: center;
 }
 
 header h1 {
     margin: 0;
-    font-size: 2em;
+    font-size: 2.5em; /* Збільшено розмір шрифту */
 }
 
 nav {
-    background-color: #e8491d;
+    background-color: #d6491d; /* Змінено колір фону */
     color: #ffffff;
     text-align: center;
-    padding: 15px;
+    padding: 20px; /* Збільшено відступ */
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 10px;
-}
-
-nav ul li a {
-    color: #ffffff;
-    text-decoration: none;
+/* Додано стилі для посилань при наведенні */
+nav ul li a:hover {
+    color: #f3f3f3;
+    text-decoration: underline;
 }
 
 main {
-    padding: 20px;
+    padding: 30px; /* Збільшено відступ */
     margin: 0 auto;
     width: 80%;
 }
 
 section {
-    margin-bottom: 20px;
-    padding: 20px;
+    margin-bottom: 30px; /* Збільшено відступ */
+    padding: 30px; /* Збільшено відступ */
     background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
-}
-
-section h2 {
-    margin-top: 0;
-}
-
-section p {
-    line-height: 1.6;
-}
-
-img {
-    display: block;
-    margin: 20px auto;
-    max-width: 100%;
+    border-radius: 15px; /* Збільшено радіус закруглення */
+    box-shadow: 3px 3px 7px rgba(0,0,0,0.1); /* Змінено тінь */
 }
 
 footer {
-    background-color: #35424a;
+    background-color: #2a2a2a; /* Змінено колір фону */
     color: #ffffff;
     text-align: center;
-    padding: 20px;
+    padding: 30px; /* Збільшено відступ */
     width: 100%;
 }
-
-
